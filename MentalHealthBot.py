@@ -1,3 +1,8 @@
+# to run the file a few steps need to be done since we used streamlit: 
+# 1) pip install streamlit 
+# 2) pip install ollama (need to install llama3.1:8b version) 
+# 3) ollama serve (to open the ollama server to run the file)
+
 import streamlit as st
 import ollama
 import base64
